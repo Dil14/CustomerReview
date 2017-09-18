@@ -54,7 +54,7 @@
 
            public static LinkedList<String> getCursedWordList()
            {
-             Scanner s = new Scanner(new File("filepath"));
+             Scanner s = new Scanner(new File("CursedWord.txt"));
              LinkedList<String> cursedWordList = new LinkedList<String>();
              while (s.hasNext()){
              list.add(s.next());
